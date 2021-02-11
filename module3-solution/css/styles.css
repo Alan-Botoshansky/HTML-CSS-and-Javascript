@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Times New Roman', serif;
+}
+
+#header-nav{
+    background-color: #aaaaaa;
+}
+
+.nav-bar, .navbar-brand, .navbar-header{
+    padding: 0;
+}
+
+.navbar-brand{
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-toggle, .icon-bar {
+    border-color: #000000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle:focus > .iconbar, .navbar-default .navbar-toggle:hover > .icon-bar {
+    background-color: #ddd;
+}
+
+.navbar-default .navbar-nav>li>a {
+    background-color: white;
+    color: #000000;
+}
+
+#main-content{
+    position: relative;
+    top: 50px;
+}
+
+.our-menu{
+    text-align: center;
+    margin: 15px;
+    font-size: 2em;
+}
+
+#chicken, #beef, #sushi{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.section1, .section2, .section3{
+    background-color: #aaaaaa;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+}
+
+#food-button{
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+@media (min-width: 768px){
+    #food-button{
+        display: none;
+    }
+}
