@@ -48,7 +48,6 @@
 }
 
 .our-menu{
-    text-align: center;
     margin: 15px;
     font-size: 2em;
 }
@@ -70,10 +69,4 @@
 #food-button{
     text-align: center;
     border: 1px solid #000000;
-}
-
-@media (min-width: 768px){
-    #food-button{
-        display: none;
-    }
 }
